@@ -1,7 +1,7 @@
 import foodModel from "../models/foodModel.js";
 import fs from 'fs'
 
-// all food list
+// all food list hi
 const listFood = async (req, res) => {
     try {
         const foods = await foodModel.find({})
